@@ -1,0 +1,35 @@
+.footerContainer {
+    background-color: #1E1E1E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footerData {
+    display: flex;
+    flex-direction: column;
+    color: #6C7175;
+    flex: 3;
+}
+
+.footerSubscribe {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerContact {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerSponsors {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerLogo {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}

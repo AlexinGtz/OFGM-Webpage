@@ -1,0 +1,25 @@
+:root {
+    --main-color: #F49400;
+    --accent-color: #BE4800;
+    --text-color: #024959;
+    --dark-color: #262626;
+    --brown-color: #A65D33;
+    --background-color: #F2F2F2;
+    --small-text: 20px;
+    --medium-text: 28px;
+    --large-text: 36px;
+    --x-large-text: 48px;
+  }
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: "Quicksand";
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src: local("Quicksand"),
+      url("./assets/fonts/Quicksand.ttf") format("truetype");
+    font-weight: normal;
+}

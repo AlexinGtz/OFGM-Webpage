@@ -1,0 +1,49 @@
+.menuItemContainer {
+    color: white;
+    margin: 0 0.3rem;
+    font-size: x-small;
+    width: 3rem;
+    text-align: center;
+    height: 1rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 5px;
+    animation: menuItemShrink 200ms linear forwards;
+}
+
+.menuItemContainer:hover {
+    animation: menuItemGrow 200ms linear forwards;
+}
+
+.menuItemText {
+    margin: 0;
+    align-self: center;
+}
+
+.menuItemContainer a:active,
+.menuItemContainer a.active {
+    background-color: #F49400;
+    width: 4rem;
+}
+
+@keyframes menuItemGrow {
+    0% {
+
+    }
+    100% {
+        background-color: #F49400;
+        width: 4rem;
+    }
+}
+
+@keyframes menuItemShrink {
+    0% {
+        background-color: #F49400;
+        width: 4rem;
+    }
+    100% {
+        background-color: none;
+        width: 3rem;
+    }
+}

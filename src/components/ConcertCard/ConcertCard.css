@@ -1,0 +1,50 @@
+.concertCardContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 70%;
+    border-radius: 25px;
+    align-items: center;
+    height: 10rem;
+}
+
+.concertCardInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    margin: 0 1rem;
+}
+
+.concertCardButton {
+    display: flex;
+    justify-content: center;
+    height: 1.2rem;
+    flex: 1;
+    font-size: xx-small;
+    color: white;
+}
+
+.concertCardImageContainer {
+    display: flex;
+    flex: 1;
+    height: 100%;
+}
+.concertCardImage {
+    height: 100%;
+}
+
+.concertCardDate {
+    font-size: xx-small;
+    margin: 0;
+}
+
+.concertCardName {
+    font-size: large;
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+
+.concertCardComposer {
+    font-size: xx-small;
+    margin: 0;
+}
